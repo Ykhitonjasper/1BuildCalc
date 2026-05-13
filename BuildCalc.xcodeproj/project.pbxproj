@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0893B8E6630EFA2A75C6D254 /* PaintCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB94B7545BCD52B4A475A1 /* PaintCalcView.swift */; };
+		0ABBE2F2B5DC2ADEBB2DE221 /* MaterialEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AF880DE667484F6644C762 /* MaterialEditView.swift */; };
+		101242BC6C9AA4796FD19BBF /* DrywallCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0F47E2DDDE75655D93BBE /* DrywallCalculator.swift */; };
+		157ADA4E951FF1427AD6E95D /* MaterialPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F53039F8607B8B53CBC64A /* MaterialPreset.swift */; };
+		172265C7E4B596EB7377B9BE /* BuildCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4153F4E5A2B87E692B556 /* BuildCalcApp.swift */; };
+		1876719FB1CD555E7A68D49F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28519326B73B7BF39B09F1D5 /* HomeView.swift */; };
+		202ADA97521F35011D084027 /* UnitSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BD482DB38170B8007659DC /* UnitSystem.swift */; };
+		23E29C4B425808E44B58F86E /* ImperialFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A827F836B81ED80A35131952 /* ImperialFraction.swift */; };
+		24A405FA0146C4B4C9A2E618 /* ProjectEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A55BA39D2F1DE6F0930983 /* ProjectEditView.swift */; };
+		274722756D31E5B2E396B8FD /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234207DA4E38B06106B829E4 /* ColorHex.swift */; };
+		2A4E98CBE3D7262A38FD2D01 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630631AE098577A1616CC627 /* ProjectDetailView.swift */; };
+		2AE7BACAAA6621C74138A7CD /* DimensionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F66CC6F9E475C12FDCBFE /* DimensionField.swift */; };
+		2D54934C3D71F455DC0E4FB9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 65DE28050B77732E38C1B831 /* PrivacyInfo.xcprivacy */; };
+		2D54E32C09673434999CC508 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7E1E6FADBAF4258314A7B /* Material.swift */; };
+		31DF2DAD44966A79199EA22A /* UnitConverterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0F89579FE3E8AA67106940 /* UnitConverterVM.swift */; };
+		3C3B04A19C9F9A165BBABB30 /* ShapePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29D420C339A7A5FEB8FCCB /* ShapePicker.swift */; };
+		48FF3DC3B52292FA81CC5E0D /* MaterialSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47290EFA87E3E1966084C3E3 /* MaterialSeed.swift */; };
+		4932A2088B1035CF00B31E48 /* UnitConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC252ABA16D020A5230442C /* UnitConverterView.swift */; };
+		4BA36B6224DAF0AF515F12B9 /* BrickCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0256F2A0808670F7427E3B67 /* BrickCalcView.swift */; };
+		4F4D25A3CBDDFAE281A2914F /* EstimateExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B965B8D1997FF64A4C997967 /* EstimateExportView.swift */; };
+		501FC17E241B31760F86F91B /* ScreedCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC969382565E2DBB6759A64 /* ScreedCalcView.swift */; };
+		544EB1893DC2E09AC86127B1 /* WallpaperCalcVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D358F5773AE56C53DA01F /* WallpaperCalcVM.swift */; };
+		5A8CFA39D02D72BBD2A6CE27 /* CapsulePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A627255FE9C9CE95D6C94 /* CapsulePicker.swift */; };
+		5F2008FB5ED7067F8A99EC0F /* WastePercentField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424EA3358D908D2AA66AC52 /* WastePercentField.swift */; };
+		60CCACEEAFCAB00192B0A799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D05383071A6F0EA9025C422 /* LaunchScreen.storyboard */; };
+		617AC41CC695873E7DE74906 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBBF18F98FCFA696FEB5BE1 /* CTAButton.swift */; };
+		6275C73E19560798BAEA3F90 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10377C156759D0BF0180A9A3 /* Currency.swift */; };
+		6B942CBBD6BAEC6E9138FBAB /* ConcreteCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38892E77DA8A98CC3FC3CC /* ConcreteCalculator.swift */; };
+		70824D88FCC6D91DEB327EA9 /* AreaCalcVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827F020BE21BC45A087F015 /* AreaCalcVM.swift */; };
+		8F7598AAE70E0D230767503A /* LaminateCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46019CC467FAB4C2916B3464 /* LaminateCalcView.swift */; };
+		9251BB5D5992214295633701 /* RoomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635552C40E08E059C9BCD8F /* RoomShape.swift */; };
+		9492789BD6E6A152AA7180D8 /* PlasterCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A106889F6DFB0B65C27E54 /* PlasterCalcView.swift */; };
+		9B19CEF0ADE66F7C4F74B13E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F3FDBD69190F71CC1FB823 /* SettingsView.swift */; };
+		9B54F55B9E345ACEEDC23A08 /* FrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147C49B9369AFFF2B915957 /* FrontView.swift */; };
+		A638CD54F8F36D2E654CDE21 /* Opening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519D54AD8BDDCA4C8B41A9C8 /* Opening.swift */; };
+		A9663A6E64ECAC8DB6492B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECBF5D586C92B0BA49760A7 /* Assets.xcassets */; };
+		B1FC76C9126FF7A38A03C022 /* OpeningsEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECB72B283841E442EB7910 /* OpeningsEditor.swift */; };
+		B234954F4AC746C17A20DBD4 /* LaminateCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB612B749B5DE9BBDED15F /* LaminateCalculator.swift */; };
+		B89D4C10697DAF69DEAB7A84 /* GlassBg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228CFFED15F8EE25E29193FA /* GlassBg.swift */; };
+		BC7F5FD57C041FFD3C98FB0E /* TileCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D93A8E55C5CBBBFDBA6850 /* TileCalculator.swift */; };
+		BFCDB1010737E13C88FB1F0A /* SaveLineItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36266B839AFF6900A8D4947D /* SaveLineItemSheet.swift */; };
+		C42ADE7AB8822C03605C064B /* VolumeCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E011B026FAB7B8790EA78 /* VolumeCalcView.swift */; };
+		C43398F381E9D03AD97CEE47 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C642BB6C17EE5D0ADA36085 /* Persistence.swift */; };
+		C53F4DD55472586F5FDBCC33 /* DrywallCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA27550E3644E4FA9BA123B /* DrywallCalcView.swift */; };
+		C91F147A12053727485F7BA1 /* MatChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C375E327B7D46FB4D1BF00D8 /* MatChip.swift */; };
+		D0A233241B089402A6943F76 /* LineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E5E752D6C7549C50936BF8 /* LineItem.swift */; };
+		D17476712FF63729D826B3BE /* EstimateExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4D6E17FDA052A7985C116 /* EstimateExporter.swift */; };
+		D770D821BD7FFFF4479C4F7F /* ProjectsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861AFF89C6FADDFAB334C4DB /* ProjectsListView.swift */; };
+		E0653668EC57571AFCE64A66 /* AreaCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912EA2B491C7120FE900C7D /* AreaCalcView.swift */; };
+		E146014EB8BC82D928E783CB /* WallpaperCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7D2B7B852243BDB928450D /* WallpaperCalcView.swift */; };
+		E6DB4BA76F2E8909FC3E85D7 /* VolumeCalcVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E4C5D97DF5D2E346B0872D /* VolumeCalcVM.swift */; };
+		E9E5DEC0F2F713447E5340AC /* BrickCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC72E4FED327218CE8DDBAA /* BrickCalculator.swift */; };
+		EA4F77AB93AD77F6F7A59BF8 /* NeoField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B158CFC9648AAB0654A268F1 /* NeoField.swift */; };
+		EB9E3A3FE7B0E613171008C7 /* ConcreteCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DF94C94ECBAEC1D1D6500 /* ConcreteCalcView.swift */; };
+		EE9F134DE7986E0231055692 /* TileCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6437B9120BD81612FF20B6D5 /* TileCalcView.swift */; };
+		EF71E3F1BAFB057DE8EB573B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034EDA8D1A4A1B0D4D3FF86A /* WebView.swift */; };
+		F146B462CBCEDDC5E6A3A3EB /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F873EEE2FF1686A3281CF /* Project.swift */; };
+		F1D343A56398FFC326DE73A3 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C68319C663525C6778FBC79 /* GlassCard.swift */; };
+		F8E3057151AA5DC0215DA7AC /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1051F2743E8CF8465867ABD1 /* CatalogView.swift */; };
+		FB120239F7C765185B6B3083 /* ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC55F12DB920470683B7BD /* ResultCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00CC55F12DB920470683B7BD /* ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCard.swift; sourceTree = "<group>"; };
+		0256F2A0808670F7427E3B67 /* BrickCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickCalcView.swift; sourceTree = "<group>"; };
+		034EDA8D1A4A1B0D4D3FF86A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		0EB4D6E17FDA052A7985C116 /* EstimateExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateExporter.swift; sourceTree = "<group>"; };
+		10377C156759D0BF0180A9A3 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		1051F2743E8CF8465867ABD1 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		1424EA3358D908D2AA66AC52 /* WastePercentField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastePercentField.swift; sourceTree = "<group>"; };
+		17A55BA39D2F1DE6F0930983 /* ProjectEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEditView.swift; sourceTree = "<group>"; };
+		1C642BB6C17EE5D0ADA36085 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1C68319C663525C6778FBC79 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		228CFFED15F8EE25E29193FA /* GlassBg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBg.swift; sourceTree = "<group>"; };
+		234207DA4E38B06106B829E4 /* ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex.swift; sourceTree = "<group>"; };
+		28519326B73B7BF39B09F1D5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		333D358F5773AE56C53DA01F /* WallpaperCalcVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCalcVM.swift; sourceTree = "<group>"; };
+		36266B839AFF6900A8D4947D /* SaveLineItemSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLineItemSheet.swift; sourceTree = "<group>"; };
+		3FDB94B7545BCD52B4A475A1 /* PaintCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintCalcView.swift; sourceTree = "<group>"; };
+		46019CC467FAB4C2916B3464 /* LaminateCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaminateCalcView.swift; sourceTree = "<group>"; };
+		47290EFA87E3E1966084C3E3 /* MaterialSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialSeed.swift; sourceTree = "<group>"; };
+		48E5E752D6C7549C50936BF8 /* LineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItem.swift; sourceTree = "<group>"; };
+		4912EA2B491C7120FE900C7D /* AreaCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCalcView.swift; sourceTree = "<group>"; };
+		4B0F873EEE2FF1686A3281CF /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		4D05383071A6F0EA9025C422 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EA27550E3644E4FA9BA123B /* DrywallCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrywallCalcView.swift; sourceTree = "<group>"; };
+		4FA4153F4E5A2B87E692B556 /* BuildCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildCalcApp.swift; sourceTree = "<group>"; };
+		4FECB72B283841E442EB7910 /* OpeningsEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningsEditor.swift; sourceTree = "<group>"; };
+		519D54AD8BDDCA4C8B41A9C8 /* Opening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opening.swift; sourceTree = "<group>"; };
+		59F3FDBD69190F71CC1FB823 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5DBB612B749B5DE9BBDED15F /* LaminateCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaminateCalculator.swift; sourceTree = "<group>"; };
+		630631AE098577A1616CC627 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		6437B9120BD81612FF20B6D5 /* TileCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCalcView.swift; sourceTree = "<group>"; };
+		65DE28050B77732E38C1B831 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		6AE7E1E6FADBAF4258314A7B /* Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+		6EC252ABA16D020A5230442C /* UnitConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterView.swift; sourceTree = "<group>"; };
+		71F53039F8607B8B53CBC64A /* MaterialPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialPreset.swift; sourceTree = "<group>"; };
+		7827F020BE21BC45A087F015 /* AreaCalcVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCalcVM.swift; sourceTree = "<group>"; };
+		861AFF89C6FADDFAB334C4DB /* ProjectsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsListView.swift; sourceTree = "<group>"; };
+		8635552C40E08E059C9BCD8F /* RoomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomShape.swift; sourceTree = "<group>"; };
+		877A627255FE9C9CE95D6C94 /* CapsulePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsulePicker.swift; sourceTree = "<group>"; };
+		8B29D420C339A7A5FEB8FCCB /* ShapePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapePicker.swift; sourceTree = "<group>"; };
+		8CB3B303FE0CDD3952DD64F7 /* BuildCalc.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BuildCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC72E4FED327218CE8DDBAA /* BrickCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickCalculator.swift; sourceTree = "<group>"; };
+		8E9E011B026FAB7B8790EA78 /* VolumeCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeCalcView.swift; sourceTree = "<group>"; };
+		A827F836B81ED80A35131952 /* ImperialFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImperialFraction.swift; sourceTree = "<group>"; };
+		AF4DF94C94ECBAEC1D1D6500 /* ConcreteCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteCalcView.swift; sourceTree = "<group>"; };
+		B158CFC9648AAB0654A268F1 /* NeoField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoField.swift; sourceTree = "<group>"; };
+		B965B8D1997FF64A4C997967 /* EstimateExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateExportView.swift; sourceTree = "<group>"; };
+		BA7D2B7B852243BDB928450D /* WallpaperCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCalcView.swift; sourceTree = "<group>"; };
+		BF38892E77DA8A98CC3FC3CC /* ConcreteCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteCalculator.swift; sourceTree = "<group>"; };
+		BFBBF18F98FCFA696FEB5BE1 /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
+		C0D93A8E55C5CBBBFDBA6850 /* TileCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCalculator.swift; sourceTree = "<group>"; };
+		C147C49B9369AFFF2B915957 /* FrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontView.swift; sourceTree = "<group>"; };
+		C375E327B7D46FB4D1BF00D8 /* MatChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatChip.swift; sourceTree = "<group>"; };
+		CD0F89579FE3E8AA67106940 /* UnitConverterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterVM.swift; sourceTree = "<group>"; };
+		D6BD482DB38170B8007659DC /* UnitSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitSystem.swift; sourceTree = "<group>"; };
+		DB4F66CC6F9E475C12FDCBFE /* DimensionField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionField.swift; sourceTree = "<group>"; };
+		DEA0F47E2DDDE75655D93BBE /* DrywallCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrywallCalculator.swift; sourceTree = "<group>"; };
+		DECBF5D586C92B0BA49760A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3E4C5D97DF5D2E346B0872D /* VolumeCalcVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeCalcVM.swift; sourceTree = "<group>"; };
+		E8AF880DE667484F6644C762 /* MaterialEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialEditView.swift; sourceTree = "<group>"; };
+		EAC969382565E2DBB6759A64 /* ScreedCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreedCalcView.swift; sourceTree = "<group>"; };
+		F4A106889F6DFB0B65C27E54 /* PlasterCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasterCalcView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D929A836EEDA0326D1F3A7B /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				1051F2743E8CF8465867ABD1 /* CatalogView.swift */,
+				E8AF880DE667484F6644C762 /* MaterialEditView.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		178642002EC340BC2615E7D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB3B303FE0CDD3952DD64F7 /* BuildCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E3E951012FEE565E86C6A4A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				877A627255FE9C9CE95D6C94 /* CapsulePicker.swift */,
+				234207DA4E38B06106B829E4 /* ColorHex.swift */,
+				BFBBF18F98FCFA696FEB5BE1 /* CTAButton.swift */,
+				DB4F66CC6F9E475C12FDCBFE /* DimensionField.swift */,
+				228CFFED15F8EE25E29193FA /* GlassBg.swift */,
+				1C68319C663525C6778FBC79 /* GlassCard.swift */,
+				C375E327B7D46FB4D1BF00D8 /* MatChip.swift */,
+				B158CFC9648AAB0654A268F1 /* NeoField.swift */,
+				4FECB72B283841E442EB7910 /* OpeningsEditor.swift */,
+				00CC55F12DB920470683B7BD /* ResultCard.swift */,
+				8B29D420C339A7A5FEB8FCCB /* ShapePicker.swift */,
+				1424EA3358D908D2AA66AC52 /* WastePercentField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2561DAF466EB06F1FF30145D /* BuildCalc */ = {
+			isa = PBXGroup;
+			children = (
+				44CE2DB4BE27F04D82B621B0 /* App */,
+				A914DBE5297E547EF82BAFA3 /* Calculators */,
+				BB64E26E28E16CE645E69D80 /* Models */,
+				C56A8394AFB3EC4EA502E9B2 /* Resources */,
+				7BE647295CB2B55AC69574C3 /* Services */,
+				998E553749F89EFDBAF1E569 /* Views */,
+			);
+			path = BuildCalc;
+			sourceTree = "<group>";
+		};
+		3E1B55B342EC9ED3C0158FDE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				28519326B73B7BF39B09F1D5 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		44CE2DB4BE27F04D82B621B0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4FA4153F4E5A2B87E692B556 /* BuildCalcApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		54FCE071A5C4EDEA0B8109B4 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				4912EA2B491C7120FE900C7D /* AreaCalcView.swift */,
+				0256F2A0808670F7427E3B67 /* BrickCalcView.swift */,
+				AF4DF94C94ECBAEC1D1D6500 /* ConcreteCalcView.swift */,
+				4EA27550E3644E4FA9BA123B /* DrywallCalcView.swift */,
+				46019CC467FAB4C2916B3464 /* LaminateCalcView.swift */,
+				3FDB94B7545BCD52B4A475A1 /* PaintCalcView.swift */,
+				F4A106889F6DFB0B65C27E54 /* PlasterCalcView.swift */,
+				EAC969382565E2DBB6759A64 /* ScreedCalcView.swift */,
+				6437B9120BD81612FF20B6D5 /* TileCalcView.swift */,
+				6EC252ABA16D020A5230442C /* UnitConverterView.swift */,
+				8E9E011B026FAB7B8790EA78 /* VolumeCalcView.swift */,
+				BA7D2B7B852243BDB928450D /* WallpaperCalcView.swift */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		7BE647295CB2B55AC69574C3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0EB4D6E17FDA052A7985C116 /* EstimateExporter.swift */,
+				A827F836B81ED80A35131952 /* ImperialFraction.swift */,
+				47290EFA87E3E1966084C3E3 /* MaterialSeed.swift */,
+				1C642BB6C17EE5D0ADA36085 /* Persistence.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		89798FF558A92EC86604DE41 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7827F020BE21BC45A087F015 /* AreaCalcVM.swift */,
+				CD0F89579FE3E8AA67106940 /* UnitConverterVM.swift */,
+				E3E4C5D97DF5D2E346B0872D /* VolumeCalcVM.swift */,
+				333D358F5773AE56C53DA01F /* WallpaperCalcVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9802E0FAA29754DA0C94D436 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				B965B8D1997FF64A4C997967 /* EstimateExportView.swift */,
+				630631AE098577A1616CC627 /* ProjectDetailView.swift */,
+				17A55BA39D2F1DE6F0930983 /* ProjectEditView.swift */,
+				861AFF89C6FADDFAB334C4DB /* ProjectsListView.swift */,
+				36266B839AFF6900A8D4947D /* SaveLineItemSheet.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		998E553749F89EFDBAF1E569 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C147C49B9369AFFF2B915957 /* FrontView.swift */,
+				D6BD482DB38170B8007659DC /* UnitSystem.swift */,
+				034EDA8D1A4A1B0D4D3FF86A /* WebView.swift */,
+				54FCE071A5C4EDEA0B8109B4 /* Calculators */,
+				0D929A836EEDA0326D1F3A7B /* Catalog */,
+				1E3E951012FEE565E86C6A4A /* Components */,
+				3E1B55B342EC9ED3C0158FDE /* Home */,
+				9802E0FAA29754DA0C94D436 /* Projects */,
+				C572A0524C2C676ADF9A05C7 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0E09915D3060DD09CDE3B75 = {
+			isa = PBXGroup;
+			children = (
+				2561DAF466EB06F1FF30145D /* BuildCalc */,
+				178642002EC340BC2615E7D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A914DBE5297E547EF82BAFA3 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				8DC72E4FED327218CE8DDBAA /* BrickCalculator.swift */,
+				BF38892E77DA8A98CC3FC3CC /* ConcreteCalculator.swift */,
+				DEA0F47E2DDDE75655D93BBE /* DrywallCalculator.swift */,
+				5DBB612B749B5DE9BBDED15F /* LaminateCalculator.swift */,
+				C0D93A8E55C5CBBBFDBA6850 /* TileCalculator.swift */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		BB64E26E28E16CE645E69D80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10377C156759D0BF0180A9A3 /* Currency.swift */,
+				48E5E752D6C7549C50936BF8 /* LineItem.swift */,
+				6AE7E1E6FADBAF4258314A7B /* Material.swift */,
+				71F53039F8607B8B53CBC64A /* MaterialPreset.swift */,
+				519D54AD8BDDCA4C8B41A9C8 /* Opening.swift */,
+				4B0F873EEE2FF1686A3281CF /* Project.swift */,
+				8635552C40E08E059C9BCD8F /* RoomShape.swift */,
+				89798FF558A92EC86604DE41 /* ViewModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C56A8394AFB3EC4EA502E9B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DECBF5D586C92B0BA49760A7 /* Assets.xcassets */,
+				4D05383071A6F0EA9025C422 /* LaunchScreen.storyboard */,
+				65DE28050B77732E38C1B831 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C572A0524C2C676ADF9A05C7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				59F3FDBD69190F71CC1FB823 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3E4A9D6596FD8B77806AD6 /* BuildCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4299ACD377B0DDAAF4919567 /* Build configuration list for PBXNativeTarget "BuildCalc" */;
+			buildPhases = (
+				5F6AB35BCEC3B8FE023AFFCC /* Sources */,
+				539AA691E01DCB07F542BC20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuildCalc;
+			packageProductDependencies = (
+			);
+			productName = BuildCalc;
+			productReference = 8CB3B303FE0CDD3952DD64F7 /* BuildCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07392550B201FAA46E3A9232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = B27A6D0F55818353E3905BCA /* Build configuration list for PBXProject "BuildCalc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A0E09915D3060DD09CDE3B75;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 178642002EC340BC2615E7D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3E4A9D6596FD8B77806AD6 /* BuildCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		539AA691E01DCB07F542BC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9663A6E64ECAC8DB6492B84 /* Assets.xcassets in Resources */,
+				60CCACEEAFCAB00192B0A799 /* LaunchScreen.storyboard in Resources */,
+				2D54934C3D71F455DC0E4FB9 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6AB35BCEC3B8FE023AFFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70824D88FCC6D91DEB327EA9 /* AreaCalcVM.swift in Sources */,
+				E0653668EC57571AFCE64A66 /* AreaCalcView.swift in Sources */,
+				4BA36B6224DAF0AF515F12B9 /* BrickCalcView.swift in Sources */,
+				E9E5DEC0F2F713447E5340AC /* BrickCalculator.swift in Sources */,
+				172265C7E4B596EB7377B9BE /* BuildCalcApp.swift in Sources */,
+				617AC41CC695873E7DE74906 /* CTAButton.swift in Sources */,
+				5A8CFA39D02D72BBD2A6CE27 /* CapsulePicker.swift in Sources */,
+				F8E3057151AA5DC0215DA7AC /* CatalogView.swift in Sources */,
+				274722756D31E5B2E396B8FD /* ColorHex.swift in Sources */,
+				EB9E3A3FE7B0E613171008C7 /* ConcreteCalcView.swift in Sources */,
+				6B942CBBD6BAEC6E9138FBAB /* ConcreteCalculator.swift in Sources */,
+				6275C73E19560798BAEA3F90 /* Currency.swift in Sources */,
+				2AE7BACAAA6621C74138A7CD /* DimensionField.swift in Sources */,
+				C53F4DD55472586F5FDBCC33 /* DrywallCalcView.swift in Sources */,
+				101242BC6C9AA4796FD19BBF /* DrywallCalculator.swift in Sources */,
+				4F4D25A3CBDDFAE281A2914F /* EstimateExportView.swift in Sources */,
+				D17476712FF63729D826B3BE /* EstimateExporter.swift in Sources */,
+				9B54F55B9E345ACEEDC23A08 /* FrontView.swift in Sources */,
+				B89D4C10697DAF69DEAB7A84 /* GlassBg.swift in Sources */,
+				F1D343A56398FFC326DE73A3 /* GlassCard.swift in Sources */,
+				1876719FB1CD555E7A68D49F /* HomeView.swift in Sources */,
+				23E29C4B425808E44B58F86E /* ImperialFraction.swift in Sources */,
+				8F7598AAE70E0D230767503A /* LaminateCalcView.swift in Sources */,
+				B234954F4AC746C17A20DBD4 /* LaminateCalculator.swift in Sources */,
+				D0A233241B089402A6943F76 /* LineItem.swift in Sources */,
+				C91F147A12053727485F7BA1 /* MatChip.swift in Sources */,
+				2D54E32C09673434999CC508 /* Material.swift in Sources */,
+				0ABBE2F2B5DC2ADEBB2DE221 /* MaterialEditView.swift in Sources */,
+				157ADA4E951FF1427AD6E95D /* MaterialPreset.swift in Sources */,
+				48FF3DC3B52292FA81CC5E0D /* MaterialSeed.swift in Sources */,
+				EA4F77AB93AD77F6F7A59BF8 /* NeoField.swift in Sources */,
+				A638CD54F8F36D2E654CDE21 /* Opening.swift in Sources */,
+				B1FC76C9126FF7A38A03C022 /* OpeningsEditor.swift in Sources */,
+				0893B8E6630EFA2A75C6D254 /* PaintCalcView.swift in Sources */,
+				C43398F381E9D03AD97CEE47 /* Persistence.swift in Sources */,
+				9492789BD6E6A152AA7180D8 /* PlasterCalcView.swift in Sources */,
+				F146B462CBCEDDC5E6A3A3EB /* Project.swift in Sources */,
+				2A4E98CBE3D7262A38FD2D01 /* ProjectDetailView.swift in Sources */,
+				24A405FA0146C4B4C9A2E618 /* ProjectEditView.swift in Sources */,
+				D770D821BD7FFFF4479C4F7F /* ProjectsListView.swift in Sources */,
+				FB120239F7C765185B6B3083 /* ResultCard.swift in Sources */,
+				9251BB5D5992214295633701 /* RoomShape.swift in Sources */,
+				BFCDB1010737E13C88FB1F0A /* SaveLineItemSheet.swift in Sources */,
+				501FC17E241B31760F86F91B /* ScreedCalcView.swift in Sources */,
+				9B19CEF0ADE66F7C4F74B13E /* SettingsView.swift in Sources */,
+				3C3B04A19C9F9A165BBABB30 /* ShapePicker.swift in Sources */,
+				EE9F134DE7986E0231055692 /* TileCalcView.swift in Sources */,
+				BC7F5FD57C041FFD3C98FB0E /* TileCalculator.swift in Sources */,
+				31DF2DAD44966A79199EA22A /* UnitConverterVM.swift in Sources */,
+				4932A2088B1035CF00B31E48 /* UnitConverterView.swift in Sources */,
+				202ADA97521F35011D084027 /* UnitSystem.swift in Sources */,
+				E6DB4BA76F2E8909FC3E85D7 /* VolumeCalcVM.swift in Sources */,
+				C42ADE7AB8822C03605C064B /* VolumeCalcView.swift in Sources */,
+				544EB1893DC2E09AC86127B1 /* WallpaperCalcVM.swift in Sources */,
+				E146014EB8BC82D928E783CB /* WallpaperCalcView.swift in Sources */,
+				5F2008FB5ED7067F8A99EC0F /* WastePercentField.swift in Sources */,
+				EF71E3F1BAFB057DE8EB573B /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		176C5F5C234E5B1502E285CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSAppTransportSecurity = "[\"NSAllowsArbitraryLoads\": false]";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIDeviceFamily = "[1]";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = (
+					arm64,
+				);
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gma.app;
+				PRODUCT_NAME = BuildCalc;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				UILaunchStoryboardName = LaunchScreen;
+			};
+			name = Debug;
+		};
+		37A64874E2CB82199C787551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		523F46F670D3DC3CCEA67757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSAppTransportSecurity = "[\"NSAllowsArbitraryLoads\": false]";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIDeviceFamily = "[1]";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = (
+					arm64,
+				);
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gma.app;
+				PRODUCT_NAME = BuildCalc;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				UILaunchStoryboardName = LaunchScreen;
+			};
+			name = Release;
+		};
+		DDC993BD74F9A14588A16BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4299ACD377B0DDAAF4919567 /* Build configuration list for PBXNativeTarget "BuildCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176C5F5C234E5B1502E285CB /* Debug */,
+				523F46F670D3DC3CCEA67757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B27A6D0F55818353E3905BCA /* Build configuration list for PBXProject "BuildCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A64874E2CB82199C787551 /* Debug */,
+				DDC993BD74F9A14588A16BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07392550B201FAA46E3A9232 /* Project object */;
+}
