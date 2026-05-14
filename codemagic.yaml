@@ -27,7 +27,7 @@ workflows:
     environment:
       xcode: latest
       groups:
-        - buildcalc_app_store
+        - app_store_credentials
       vars:
         XCODE_PROJECT: BuildCalc.xcodeproj
         XCODE_SCHEME: BuildCalc
