@@ -36,6 +36,14 @@ workflows:
     scripts:
       - name: Set up keychain for code signing
         script: keychain initialize
+      - name: Require CERTIFICATE_PRIVATE_KEY (Apple Distribution CSR key)
+        script: |
+          if [ -z "$CERTIFICATE_PRIVATE_KEY" ]; then
+            echo "Missing CERTIFICATE_PRIVATE_KEY in app_store_credentials."
+            echo "Generate once on your Mac: openssl genrsa -out dist.key 2048"
+            echo "Then add variable CERTIFICATE_PRIVATE_KEY = full contents of dist.key (Secret). Keep this file safe."
+            exit 1
+          fi
       - name: Fetch signing files (App Store profile + certificate)
         script: |
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
