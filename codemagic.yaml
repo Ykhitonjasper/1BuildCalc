@@ -24,10 +24,10 @@ workflows:
     name: iOS signed IPA (App Store)
     max_build_duration: 120
     instance_type: mac_mini_m2
-    integrations:
-      app_store_connect: buildcalc_app_store_connect
     environment:
       xcode: latest
+      groups:
+        - buildcalc_app_store
       vars:
         XCODE_PROJECT: BuildCalc.xcodeproj
         XCODE_SCHEME: BuildCalc
@@ -58,5 +58,7 @@ workflows:
       - /tmp/xcodebuild_logs/*.log
     publishing:
       app_store_connect:
-        auth: integration
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
         submit_to_testflight: false
