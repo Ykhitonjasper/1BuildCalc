@@ -1,6 +1,3 @@
-# App Store Connect API key (Key ID, Issuer ID, .p8) — только в Codemagic:
-# Team settings → Integrations → Developer Portal → ключ с именем ниже.
-# Имя в integrations MUST совпадать с "App Store Connect API key name" в UI (не обязано совпадать с Key ID).
 workflows:
   ios-workflow:
     name: iOS Workflow (simulator, no signing)
