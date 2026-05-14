@@ -475,7 +475,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gma.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevethomas.Buildcalc;
 				PRODUCT_NAME = BuildCalc;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -568,7 +568,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gma.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevethomas.Buildcalc;
 				PRODUCT_NAME = BuildCalc;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

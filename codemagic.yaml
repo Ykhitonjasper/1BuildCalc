@@ -1,6 +1,9 @@
+# App Store Connect API key (Key ID, Issuer ID, .p8) — только в Codemagic:
+# Team settings → Integrations → Developer Portal → ключ с именем ниже.
+# Имя в integrations MUST совпадать с "App Store Connect API key name" в UI (не обязано совпадать с Key ID).
 workflows:
   ios-workflow:
-    name: iOS Workflow
+    name: iOS Workflow (simulator, no signing)
     max_build_duration: 120
     instance_type: mac_mini_m2
     environment:
@@ -13,9 +16,41 @@ workflows:
         script: |
           set -e
           xcodebuild \
-            -project "$XCODE_PROJECT" \
+            -project "$CM_BUILD_DIR/$XCODE_PROJECT" \
             -scheme "$XCODE_SCHEME" \
             -sdk iphonesimulator \
             -destination 'generic/platform=iOS Simulator' \
             CODE_SIGNING_ALLOWED=NO \
             build
+
+  ios-release:
+    name: iOS signed IPA (App Store)
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: buildcalc_app_store_connect
+    environment:
+      xcode: latest
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.stevethomas.Buildcalc
+      vars:
+        XCODE_PROJECT: BuildCalc.xcodeproj
+        XCODE_SCHEME: BuildCalc
+        BUNDLE_ID: com.stevethomas.Buildcalc
+        APP_STORE_APPLE_ID: "6769450205"
+    scripts:
+      - name: Set up code signing settings on Xcode project
+        script: xcode-project use-profiles
+      - name: Build ipa for distribution
+        script: |
+          xcode-project build-ipa \
+            --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: false
