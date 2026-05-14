@@ -28,9 +28,6 @@ workflows:
       app_store_connect: buildcalc_app_store_connect
     environment:
       xcode: latest
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.stevethomas.Buildcalc
       vars:
         XCODE_PROJECT: BuildCalc.xcodeproj
         XCODE_SCHEME: BuildCalc
@@ -47,7 +44,10 @@ workflows:
       - name: Add certificates to keychain
         script: keychain add-certificates
       - name: Set up code signing settings on Xcode project
-        script: xcode-project use-profiles
+        script: |
+          xcode-project use-profiles \
+            --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            --archive-method app-store
       - name: Build ipa for distribution
         script: |
           xcode-project build-ipa \
