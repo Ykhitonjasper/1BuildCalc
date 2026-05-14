@@ -37,6 +37,15 @@ workflows:
         BUNDLE_ID: com.stevethomas.Buildcalc
         APP_STORE_APPLE_ID: "6769450205"
     scripts:
+      - name: Set up keychain for code signing
+        script: keychain initialize
+      - name: Fetch signing files (App Store profile + certificate)
+        script: |
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --create
+      - name: Add certificates to keychain
+        script: keychain add-certificates
       - name: Set up code signing settings on Xcode project
         script: xcode-project use-profiles
       - name: Build ipa for distribution
