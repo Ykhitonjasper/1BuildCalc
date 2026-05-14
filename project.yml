@@ -37,6 +37,7 @@ targets:
         INFOPLIST_KEY_UIRequiredDeviceCapabilities:
           - arm64
         INFOPLIST_KEY_UIDeviceFamily: [1]
+        TARGETED_DEVICE_FAMILY: "1"
         INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: "NO"
         INFOPLIST_KEY_UIStatusBarStyle: UIStatusBarStyleDarkContent
         INFOPLIST_KEY_UIUserInterfaceStyle: Dark
