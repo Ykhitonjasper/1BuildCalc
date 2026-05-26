@@ -22,6 +22,14 @@
 		2D54934C3D71F455DC0E4FB9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 65DE28050B77732E38C1B831 /* PrivacyInfo.xcprivacy */; };
 		2D54E32C09673434999CC508 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7E1E6FADBAF4258314A7B /* Material.swift */; };
 		31DF2DAD44966A79199EA22A /* UnitConverterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0F89579FE3E8AA67106940 /* UnitConverterVM.swift */; };
+		3714D1382FBC959300FB09F3 /* CalcModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D1372FBC958C00FB09F3 /* CalcModels.swift */; };
+		3714D13A2FBC95A500FB09F3 /* ClacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D1392FBC95A000FB09F3 /* ClacView.swift */; };
+		3714D13C2FBC95B300FB09F3 /* CalcManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D13B2FBC95AE00FB09F3 /* CalcManager.swift */; };
+		3714D13E2FBC95C200FB09F3 /* CalcServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714D13D2FBC95B600FB09F3 /* CalcServices.swift */; };
+		37DC663C2FBC98160003A2AA /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 3714D1402FBC961300FB09F3 /* AppsFlyerLib-Static */; };
+		37DC663D2FBC98160003A2AA /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 3714D1422FBC961E00FB09F3 /* Alamofire */; };
+		37DC663F2FBC98D20003A2AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DC663E2FBC98CD0003A2AA /* AppDelegate.swift */; };
+		37DC66412FBC98F30003A2AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DC66402FBC98F30003A2AA /* MainView.swift */; };
 		3C3B04A19C9F9A165BBABB30 /* ShapePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29D420C339A7A5FEB8FCCB /* ShapePicker.swift */; };
 		48FF3DC3B52292FA81CC5E0D /* MaterialSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47290EFA87E3E1966084C3E3 /* MaterialSeed.swift */; };
 		4932A2088B1035CF00B31E48 /* UnitConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC252ABA16D020A5230442C /* UnitConverterView.swift */; };
@@ -85,6 +93,14 @@
 		28519326B73B7BF39B09F1D5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		333D358F5773AE56C53DA01F /* WallpaperCalcVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCalcVM.swift; sourceTree = "<group>"; };
 		36266B839AFF6900A8D4947D /* SaveLineItemSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLineItemSheet.swift; sourceTree = "<group>"; };
+		3714D1302FBC954300FB09F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3714D1312FBC955100FB09F3 /* BuildCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuildCalc.entitlements; sourceTree = "<group>"; };
+		3714D1372FBC958C00FB09F3 /* CalcModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcModels.swift; sourceTree = "<group>"; };
+		3714D1392FBC95A000FB09F3 /* ClacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClacView.swift; sourceTree = "<group>"; };
+		3714D13B2FBC95AE00FB09F3 /* CalcManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcManager.swift; sourceTree = "<group>"; };
+		3714D13D2FBC95B600FB09F3 /* CalcServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcServices.swift; sourceTree = "<group>"; };
+		37DC663E2FBC98CD0003A2AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37DC66402FBC98F30003A2AA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3FDB94B7545BCD52B4A475A1 /* PaintCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintCalcView.swift; sourceTree = "<group>"; };
 		46019CC467FAB4C2916B3464 /* LaminateCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaminateCalcView.swift; sourceTree = "<group>"; };
 		47290EFA87E3E1966084C3E3 /* MaterialSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialSeed.swift; sourceTree = "<group>"; };
@@ -100,7 +116,7 @@
 		5DBB612B749B5DE9BBDED15F /* LaminateCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaminateCalculator.swift; sourceTree = "<group>"; };
 		630631AE098577A1616CC627 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
 		6437B9120BD81612FF20B6D5 /* TileCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCalcView.swift; sourceTree = "<group>"; };
-		65DE28050B77732E38C1B831 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		65DE28050B77732E38C1B831 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		6AE7E1E6FADBAF4258314A7B /* Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
 		6EC252ABA16D020A5230442C /* UnitConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterView.swift; sourceTree = "<group>"; };
 		71F53039F8607B8B53CBC64A /* MaterialPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialPreset.swift; sourceTree = "<group>"; };
@@ -109,7 +125,7 @@
 		8635552C40E08E059C9BCD8F /* RoomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomShape.swift; sourceTree = "<group>"; };
 		877A627255FE9C9CE95D6C94 /* CapsulePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsulePicker.swift; sourceTree = "<group>"; };
 		8B29D420C339A7A5FEB8FCCB /* ShapePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapePicker.swift; sourceTree = "<group>"; };
-		8CB3B303FE0CDD3952DD64F7 /* BuildCalc.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BuildCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB3B303FE0CDD3952DD64F7 /* BuildCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC72E4FED327218CE8DDBAA /* BrickCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickCalculator.swift; sourceTree = "<group>"; };
 		8E9E011B026FAB7B8790EA78 /* VolumeCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeCalcView.swift; sourceTree = "<group>"; };
 		A827F836B81ED80A35131952 /* ImperialFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImperialFraction.swift; sourceTree = "<group>"; };
@@ -132,6 +148,18 @@
 		EAC969382565E2DBB6759A64 /* ScreedCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreedCalcView.swift; sourceTree = "<group>"; };
 		F4A106889F6DFB0B65C27E54 /* PlasterCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasterCalcView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3714D1432FBC97BD00FB09F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC663D2FBC98160003A2AA /* AlamofireDynamic in Frameworks */,
+				37DC663C2FBC98160003A2AA /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0D929A836EEDA0326D1F3A7B /* Catalog */ = {
@@ -173,6 +201,8 @@
 		2561DAF466EB06F1FF30145D /* BuildCalc */ = {
 			isa = PBXGroup;
 			children = (
+				3714D1312FBC955100FB09F3 /* BuildCalc.entitlements */,
+				3714D1302FBC954300FB09F3 /* Info.plist */,
 				44CE2DB4BE27F04D82B621B0 /* App */,
 				A914DBE5297E547EF82BAFA3 /* Calculators */,
 				BB64E26E28E16CE645E69D80 /* Models */,
@@ -181,6 +211,24 @@
 				998E553749F89EFDBAF1E569 /* Views */,
 			);
 			path = BuildCalc;
+			sourceTree = "<group>";
+		};
+		3714D1362FBC957F00FB09F3 /* CalculatorServices */ = {
+			isa = PBXGroup;
+			children = (
+				3714D13D2FBC95B600FB09F3 /* CalcServices.swift */,
+				3714D13B2FBC95AE00FB09F3 /* CalcManager.swift */,
+				3714D1392FBC95A000FB09F3 /* ClacView.swift */,
+				3714D1372FBC958C00FB09F3 /* CalcModels.swift */,
+			);
+			path = CalculatorServices;
+			sourceTree = "<group>";
+		};
+		3714D1442FBC97C400FB09F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3E1B55B342EC9ED3C0158FDE /* Home */ = {
@@ -194,6 +242,7 @@
 		44CE2DB4BE27F04D82B621B0 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				37DC663E2FBC98CD0003A2AA /* AppDelegate.swift */,
 				4FA4153F4E5A2B87E692B556 /* BuildCalcApp.swift */,
 			);
 			path = App;
@@ -264,6 +313,7 @@
 				3E1B55B342EC9ED3C0158FDE /* Home */,
 				9802E0FAA29754DA0C94D436 /* Projects */,
 				C572A0524C2C676ADF9A05C7 /* Settings */,
+				37DC66402FBC98F30003A2AA /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -272,6 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				2561DAF466EB06F1FF30145D /* BuildCalc */,
+				3714D1442FBC97C400FB09F3 /* Frameworks */,
 				178642002EC340BC2615E7D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -279,6 +330,7 @@
 		A914DBE5297E547EF82BAFA3 /* Calculators */ = {
 			isa = PBXGroup;
 			children = (
+				3714D1362FBC957F00FB09F3 /* CalculatorServices */,
 				8DC72E4FED327218CE8DDBAA /* BrickCalculator.swift */,
 				BF38892E77DA8A98CC3FC3CC /* ConcreteCalculator.swift */,
 				DEA0F47E2DDDE75655D93BBE /* DrywallCalculator.swift */,
@@ -330,6 +382,7 @@
 			buildPhases = (
 				5F6AB35BCEC3B8FE023AFFCC /* Sources */,
 				539AA691E01DCB07F542BC20 /* Resources */,
+				3714D1432FBC97BD00FB09F3 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,6 +390,8 @@
 			);
 			name = BuildCalc;
 			packageProductDependencies = (
+				3714D1402FBC961300FB09F3 /* AppsFlyerLib-Static */,
+				3714D1422FBC961E00FB09F3 /* Alamofire */,
 			);
 			productName = BuildCalc;
 			productReference = 8CB3B303FE0CDD3952DD64F7 /* BuildCalc.app */;
@@ -350,8 +405,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = B27A6D0F55818353E3905BCA /* Build configuration list for PBXProject "BuildCalc" */;
 			developmentRegion = en;
@@ -362,6 +415,10 @@
 			);
 			mainGroup = A0E09915D3060DD09CDE3B75;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3714D13F2FBC961300FB09F3 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+				3714D1412FBC961E00FB09F3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 178642002EC340BC2615E7D6 /* Products */;
 			projectDirPath = "";
@@ -391,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70824D88FCC6D91DEB327EA9 /* AreaCalcVM.swift in Sources */,
+				37DC66412FBC98F30003A2AA /* MainView.swift in Sources */,
 				E0653668EC57571AFCE64A66 /* AreaCalcView.swift in Sources */,
 				4BA36B6224DAF0AF515F12B9 /* BrickCalcView.swift in Sources */,
 				E9E5DEC0F2F713447E5340AC /* BrickCalculator.swift in Sources */,
@@ -401,6 +459,7 @@
 				274722756D31E5B2E396B8FD /* ColorHex.swift in Sources */,
 				EB9E3A3FE7B0E613171008C7 /* ConcreteCalcView.swift in Sources */,
 				6B942CBBD6BAEC6E9138FBAB /* ConcreteCalculator.swift in Sources */,
+				3714D13E2FBC95C200FB09F3 /* CalcServices.swift in Sources */,
 				6275C73E19560798BAEA3F90 /* Currency.swift in Sources */,
 				2AE7BACAAA6621C74138A7CD /* DimensionField.swift in Sources */,
 				C53F4DD55472586F5FDBCC33 /* DrywallCalcView.swift in Sources */,
@@ -411,11 +470,13 @@
 				B89D4C10697DAF69DEAB7A84 /* GlassBg.swift in Sources */,
 				F1D343A56398FFC326DE73A3 /* GlassCard.swift in Sources */,
 				1876719FB1CD555E7A68D49F /* HomeView.swift in Sources */,
+				37DC663F2FBC98D20003A2AA /* AppDelegate.swift in Sources */,
 				23E29C4B425808E44B58F86E /* ImperialFraction.swift in Sources */,
 				8F7598AAE70E0D230767503A /* LaminateCalcView.swift in Sources */,
 				B234954F4AC746C17A20DBD4 /* LaminateCalculator.swift in Sources */,
 				D0A233241B089402A6943F76 /* LineItem.swift in Sources */,
 				C91F147A12053727485F7BA1 /* MatChip.swift in Sources */,
+				3714D13C2FBC95B300FB09F3 /* CalcManager.swift in Sources */,
 				2D54E32C09673434999CC508 /* Material.swift in Sources */,
 				0ABBE2F2B5DC2ADEBB2DE221 /* MaterialEditView.swift in Sources */,
 				157ADA4E951FF1427AD6E95D /* MaterialPreset.swift in Sources */,
@@ -430,12 +491,14 @@
 				2A4E98CBE3D7262A38FD2D01 /* ProjectDetailView.swift in Sources */,
 				24A405FA0146C4B4C9A2E618 /* ProjectEditView.swift in Sources */,
 				D770D821BD7FFFF4479C4F7F /* ProjectsListView.swift in Sources */,
+				3714D13A2FBC95A500FB09F3 /* ClacView.swift in Sources */,
 				FB120239F7C765185B6B3083 /* ResultCard.swift in Sources */,
 				9251BB5D5992214295633701 /* RoomShape.swift in Sources */,
 				BFCDB1010737E13C88FB1F0A /* SaveLineItemSheet.swift in Sources */,
 				501FC17E241B31760F86F91B /* ScreedCalcView.swift in Sources */,
 				9B19CEF0ADE66F7C4F74B13E /* SettingsView.swift in Sources */,
 				3C3B04A19C9F9A165BBABB30 /* ShapePicker.swift in Sources */,
+				3714D1382FBC959300FB09F3 /* CalcModels.swift in Sources */,
 				EE9F134DE7986E0231055692 /* TileCalcView.swift in Sources */,
 				BC7F5FD57C041FFD3C98FB0E /* TileCalculator.swift in Sources */,
 				31DF2DAD44966A79199EA22A /* UnitConverterVM.swift in Sources */,
@@ -457,27 +520,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BuildCalc/BuildCalc.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				MARKETING_VERSION = 1.0.0;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = BuildCalc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Buildcalc;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSAppTransportSecurity = "[\"NSAllowsArbitraryLoads\": false]";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UIDeviceFamily = "[1]";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = (
-					arm64,
-				);
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
-				INFOPLIST_KEY_CFBundleDisplayName = Buildcalc;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stevethomas.Buildcalc;
 				PRODUCT_NAME = BuildCalc;
 				SDKROOT = iphoneos;
@@ -553,27 +616,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BuildCalc/BuildCalc.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				MARKETING_VERSION = 1.0.0;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = BuildCalc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Buildcalc;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSAppTransportSecurity = "[\"NSAllowsArbitraryLoads\": false]";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UIDeviceFamily = "[1]";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = (
-					arm64,
-				);
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
-				INFOPLIST_KEY_CFBundleDisplayName = Buildcalc;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stevethomas.Buildcalc;
 				PRODUCT_NAME = BuildCalc;
 				SDKROOT = iphoneos;
@@ -660,6 +723,38 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3714D13F2FBC961300FB09F3 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.18.0;
+			};
+		};
+		3714D1412FBC961E00FB09F3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3714D1402FBC961300FB09F3 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3714D13F2FBC961300FB09F3 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		3714D1422FBC961E00FB09F3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3714D1412FBC961E00FB09F3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 07392550B201FAA46E3A9232 /* Project object */;
 }

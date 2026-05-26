@@ -3,21 +3,12 @@ import SwiftData
 
 @main
 struct BuildCalcApp: App {
-    let container: ModelContainer
-
-    init() {
-        let container = Persistence.makeContainer()
-        self.container = container
-        Task { @MainActor in
-            Persistence.bootstrap(container: container)
-        }
-    }
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     var body: some Scene {
         WindowGroup {
-            FrontView()
+            BuildCalcMainView()
                 .preferredColorScheme(.dark)
         }
-        .modelContainer(container)
     }
 }
