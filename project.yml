@@ -29,8 +29,8 @@ targets:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         UILaunchStoryboardName: LaunchScreen
         GENERATE_INFOPLIST_FILE: "YES"
-        MARKETING_VERSION: "1.0.3"
-        CURRENT_PROJECT_VERSION: "5"
+        MARKETING_VERSION: "1.0.4"
+        CURRENT_PROJECT_VERSION: "6"
         INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: "YES"
         INFOPLIST_KEY_UILaunchStoryboardName: LaunchScreen
         INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
